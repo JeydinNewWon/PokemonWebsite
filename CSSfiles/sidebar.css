@@ -105,7 +105,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 415px) {
   .hamburger, .x-icon {
     display: none !important;
   }
