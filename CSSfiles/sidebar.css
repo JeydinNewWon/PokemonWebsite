@@ -46,6 +46,9 @@
   z-index: 999 !important;
 }
 .hamburger {
+  visibility: hidden;
+}
+.hamburger {
   position: relative;
   cursor: pointer;
   left: 85%;
@@ -61,6 +64,7 @@
 @media only screen and (max-device-width: 736px) and (orientation: portrait) {
   .hamburger, .x-icon {
     left: 85% !important;
+    visibility: visible;
   }
   .hamburger {
     top: 34% !important;
@@ -75,6 +79,7 @@
 @media only screen and (max-device-width: 736px) and (orientation: landscape) {
   .hamburger, .x-icon {
     left: 85% !important;
+    visibility: visible;
   }
   .hamburger {
     top: 34% !important;
@@ -90,13 +95,14 @@
   .side {
     display: none !important;
   }
-  .x-icon, .hamburger {
+  .hamburger, .x-icon {
     display: none !important;
   }
 }
 @media only screen and (max-width: 414px) {
   .hamburger, .x-icon {
     left: 70% !important;
+    visibility: visible;
   }
   .x-icon {
     top: 3%;
