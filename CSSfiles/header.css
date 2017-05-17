@@ -1,0 +1,37 @@
+header {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  position: fixed;
+  min-width: 100%;
+  box-sizing: border-box;
+  border-bottom: 5px solid #E3350D;
+  margin: 0;
+  padding-bottom: 4px;
+  background-color: #313131;
+  margin-bottom: 100px !important;
+  height: 90px;
+  line-height: 30px;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: opacity .5s;
+  z-index: 601;
+}
+header:hover {
+  opacity: 1;
+}
+.pokeball a{
+  margin-left: 30px;
+  display: block !important;
+  background: url(../images/Pokeball-1.png) !important;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 8px;
+  cursor: pointer;
+  text-indent: -9999em;
+  line-height: 50px;
+}

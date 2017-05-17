@@ -1,0 +1,22 @@
+.welcome {
+  background: url(../images/alola.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  height: 520px;
+}
+.ptext.welcome1 {
+  font-size: 35px;
+}
+.button.about {
+  margin-top: 40px !important;
+  padding: 7px;
+  /*color: #ceac23;*/
+  color: #e5bf27;
+  font-weight: bold;
+  background: white;
+}
+.button.about:hover {
+  background-color: #e5bf27;
+  /*background-color: #ceac23;*/
+  color: white;
+}

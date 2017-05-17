@@ -1,0 +1,139 @@
+.tabmenu li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 10px;
+}
+.tabmenu {
+  position: absolute;
+  left: 55%;
+  top: 2%;
+  margin-right: 10px;
+  width: 150%;
+}
+@media screen and (max-width: 1100px) {
+  .tabmenu {
+    left: 40% !important;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 850px) {
+  .tabmenu {
+    left: 20% !important;
+  }
+}
+.tabmenu li a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(200,200,200,.4);
+    border-radius: 3px;
+    color: #fff !important;
+    font-weight: 600;
+    top: 110%;
+    text-indent: 0 !important;
+    transform: translateX(-12%);
+    -webkit-transform: translateX(-12%);
+    -moz-transform: translateX(-12%);
+    -ms-transform: translateX(-12%);
+    -o-transform: translateX(-12%);
+    opacity: 0;
+    transition: opacity .4s;
+    visibility: hidden;
+    white-space: nowrap;
+    font-family: Verdana, Geneva, sans-serif !important;
+    font-size: 12px;
+    margin-bottom: 8px;
+    opacity: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+.tabmenu li:hover a:after {
+    opacity: 1;
+    visibility: visible;
+}
+.tabmenu li a {
+  display: inline-block;
+  height: 36px;
+  cursor: pointer;
+  width: 34px;
+  text-indent: -9999px;
+  opacity: 0.7;
+  transition: opacity .2s;
+  background: url(../sprites/tabmenu.png);
+}
+.tabmenu li a:hover {
+  opacity: 1;
+}
+.tabmenu li:nth-child(1) a {
+  background-position: 0 0;
+}
+.tabmenu li:nth-child(2) a {
+  background-position: -34px 0;
+}
+.tabmenu li:nth-child(3) a {
+  background-position: -68px 0;
+}
+.tabmenu li:nth-child(4) a {
+  background-position: -102px 0;
+}
+.tabmenu li:nth-child(5) a {
+  background-position: -136px 0;
+}
+.tabmenu li:nth-child(6) a {
+  background-position: -170px 0;
+}
+.tabmenu li:nth-child(7) a {
+  background-position: -204px 0;
+}
+.tabmenu li:nth-child(8) a {
+  background-position: -238px 0;
+}
+.tabmenu li:nth-child(9) a {
+  background-position: -272px 0;
+}
+.tabmenu li:nth-child(10) a {
+  background-position: -306px 0;
+}
+.tabmenu li:nth-child(1) a:after { content: 'Home'; }
+.tabmenu li:nth-child(2) a:after { content: 'About'; }
+.tabmenu li:nth-child(3) a:after { content: 'Gen 1'; }
+.tabmenu li:nth-child(4) a:after { content: 'Gen 2'; }
+.tabmenu li:nth-child(5) a:after { content: 'Gen 3'; }
+.tabmenu li:nth-child(6) a:after { content: 'Gen 4'; }
+.tabmenu li:nth-child(7) a:after { content: 'Gen 5'; }
+.tabmenu li:nth-child(8) a:after { content: 'Gen 6'; }
+.tabmenu li:nth-child(9) a:after { content: 'Gen 7'; }
+.tabmenu li:nth-child(10) a:after { content: 'Events'; }
+.hamburger {
+  display: none;
+}
+.hamburger {
+  position: relative;
+  left: 85%;
+  z-index: 999;
+  color: white;
+  top: 30%;
+  font-size: 40px;
+  text-decoration: none !important;
+  color: white !important;
+  z-index: 999 !important;
+}
+@media screen and (max-width: 414px) {
+  .hamburger, .x-icon {
+    left: 70%;
+    top: 34%;
+  }
+  .tabmenu {
+    display: none;
+  }
+}
+@media screen and (min-width: 415px) {
+  .side {
+    display: none !important;
+  }
+  .x-icon, .hamburger {
+    display: none !important;
+  }
+}
