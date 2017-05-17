@@ -122,13 +122,13 @@
 }
 @media only screen and (max-device-width: 736px) and (orientation: portrait) {
   .hamburger, .x-icon {
-    left: 90% !important;
+    left: 85% !important;
   }
   .hamburger {
     top: 34% !important;
   }
   .x-icon {
-    top: 20% !important;
+    top: 10% !important;
   }
   .tabmenu {
     display: none;
