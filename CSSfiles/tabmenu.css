@@ -136,8 +136,13 @@
 }
 @media only screen and (max-device-width: 736px) and (orientation: landscape) {
   .hamburger, .x-icon {
-    left: 70%;
-    top: 34%;
+    left: 85% !important;
+  }
+  .hamburger {
+    top: 34% !important;
+  }
+  .x-icon {
+    top: 0.7% !important;
   }
   .tabmenu {
     display: none;
