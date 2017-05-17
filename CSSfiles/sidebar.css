@@ -36,6 +36,7 @@
 }
 .x-icon {
   position: relative;
+  cursor: pointer;
   z-index: 999;
   color: white;
   top: 3.555555%;
@@ -43,4 +44,69 @@
   text-decoration: none !important;
   color: white !important;
   z-index: 999 !important;
+}
+.hamburger {
+  position: relative;
+  cursor: pointer;
+  left: 85%;
+  z-index: 999;
+  color: white;
+  top: 30%;
+  font-size: 40px;
+  text-decoration: none !important;
+  color: white !important;
+  z-index: 999 !important;
+}
+
+@media only screen and (max-device-width: 736px) and (orientation: portrait) {
+  .hamburger, .x-icon {
+    left: 85% !important;
+  }
+  .hamburger {
+    top: 34% !important;
+  }
+  .x-icon {
+    top: 0.7% !important;
+  }
+  .tabmenu {
+    display: none;
+  }
+}
+@media only screen and (max-device-width: 736px) and (orientation: landscape) {
+  .hamburger, .x-icon {
+    left: 85% !important;
+  }
+  .hamburger {
+    top: 34% !important;
+  }
+  .x-icon {
+    top: 0.7% !important;
+  }
+  .tabmenu {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 737px) and (orientation: portrait) {
+  .side {
+    display: none !important;
+  }
+  .x-icon, .hamburger {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .hamburger, .x-icon {
+    left: 70% !important;
+  }
+  .x-icon {
+    top: 3%;
+  }
+  .tabmenu {
+    display: none;
+  }
+}
+@media screen and (min-width: 0px) {
+  .hamburger, .x-icon {
+    display: none !important;
+  }
 }
