@@ -12,10 +12,10 @@ var side = function() {
     $('.hamburger').show(200);
     $('.side').fadeOut(150);
   });
-}
+};
 
 var all = function() {
   side();
-}
+};
 
 $(document).ready(all);

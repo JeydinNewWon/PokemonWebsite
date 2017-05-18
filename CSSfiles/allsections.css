@@ -31,6 +31,15 @@ section > p {
   justify-content: center;
   position: relative;
   top: 50%;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
   text-align: center;
   align-items: center;
 }
@@ -48,10 +57,10 @@ section > p {
   font-family: 'Open Sans', sans-serif !important;
   transition-property: background-color, color;
   transition-delay: 0, 0;
-  transition-duration: .39s, .39s;
-  transition-timing-function: ease-out;
+  transition-duration: .4s, .4s;
+  transition-timing-function: ease-in-out;
   letter-spacing: 1.2px;
-  box-shadow: 0px 5px 4.2px rgba(0,0,0,0.38);
-  -webkit-box-shadow: 0px 5px 4.2px rgba(0,0,0,0.38);
-  -moz-box-shadow: 0px 5px 4.2px rgba(0,0,0,0.38);
+  box-shadow: 0px 5.5px 4.2px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 0px 5.5px 4.2px rgba(0,0,0,0.38);
+  -moz-box-shadow: 0px 5.5px 4.2px rgba(0,0,0,0.38);
 }

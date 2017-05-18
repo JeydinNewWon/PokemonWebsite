@@ -1,5 +1,42 @@
 .youtube {
-  background: url(../images/youtube.jpg) no-repeat !important;
+  background: url(../images/youtube.png) no-repeat !important;
   background-size: cover !important;
-  height: 300px;
+  height: 500px;
+}
+
+#ytvid {
+  margin-top: 10px;
+}
+.col-2.youtube {
+  bottom: 5%;
+  position: absolute;
+  left: 50%;
+}
+.youtube1 {
+  display: block;
+  position: relative;
+  z-index: 500;
+  width: 20%;
+  color: white;
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif !important;
+  margin: 0 auto;
+  text-align: center;
+  right: 25%;
+  top: 25%;
+
+}
+.button.channel {
+  display: block;
+  height: 45px;
+  padding: 3px;
+  color: #e20a0a;
+  line-height: 45px;
+  width: 100% !important;
+  margin: 0 auto;
+  background: white !important;
+}
+.button.channel:hover {
+  background: #ef2626 !important;
+  color: white;
 }
