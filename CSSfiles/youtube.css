@@ -28,11 +28,10 @@
 }
 .button.channel {
   display: block;
-  height: 45px;
-  padding: 3px;
+  height: 49.5px;
   color: #e20a0a;
-  line-height: 45px;
-  width: 100% !important;
+  line-height: 49.5px;
+  width: 240px;
   margin: 0 auto;
   background: white !important;
 }
