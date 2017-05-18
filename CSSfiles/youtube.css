@@ -7,23 +7,28 @@
 #ytvid {
   margin-top: 10px;
 }
-.col-2.youtube {
-  bottom: 5%;
+.col-2.channel {
+  bottom: 20%;
   position: absolute;
   left: 50%;
+  background: transparent;
 }
 .youtube1 {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   z-index: 500;
-  width: 20%;
+  width: 300px;
   color: white;
   font-size: 35px;
   font-family: 'Open Sans', sans-serif !important;
   margin: 0 auto;
-  text-align: center;
+  text-align: center !important;
   right: 25%;
   top: 25%;
+  margin-left: 37%;
 
 }
 .button.channel {
@@ -32,10 +37,18 @@
   color: #e20a0a;
   line-height: 49.5px;
   width: 240px;
-  margin: 0 auto;
   background: white !important;
+  position: relative;
+  left: 0;
+  right: 0;
 }
 .button.channel:hover {
   background: #ef2626 !important;
   color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  #ytvid {
+    display: none;
+  }
 }
