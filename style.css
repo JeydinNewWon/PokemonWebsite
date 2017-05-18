@@ -7,7 +7,6 @@
 /*---------------------------------------------*/
 
 /*CSS*/
-@import url('path/to/font-awesome/css/font-awesome.min.css');
 @import url(CSSfiles/header.css);
 @import url(CSSfiles/tabmenu.css);
 @import url(CSSfiles/allsections.css);
@@ -20,5 +19,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Karla');
 * {
-  font-family: 'Fira Sans' !important;
+  font-family: 'Open Sans', sans-serif !important;
 }
