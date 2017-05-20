@@ -56,7 +56,10 @@ section > p {
   font-size: 20px;
   font-family: 'Open Sans', sans-serif !important;
   transition-property: background-color, color;
-  transition-delay: 0, 0;
+  transition-delay: 0s, 0s;
+  -webkit-transition-delay: 0s, 0s;
+  -moz-transition-delay: 0s, 0s;
+  -o-transition-delay: 0s, 0s;
   transition-duration: .4s, .4s;
   transition-timing-function: ease-in-out;
   letter-spacing: 1.2px;

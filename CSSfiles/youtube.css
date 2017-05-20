@@ -37,13 +37,13 @@
   color: #e20a0a;
   line-height: 49.5px;
   width: 240px;
-  background: white !important;
+  background: white;
   position: relative;
   left: 0;
   right: 0;
 }
 .button.channel:hover {
-  background: #ef2626 !important;
+  background: #ef2626;
   color: white;
 }
 
