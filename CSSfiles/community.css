@@ -1,0 +1,15 @@
+.community {
+  background: url(../images/redditbg.png) no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  height: 800px;
+}
+.button.comm {
+  color: #FF5700;
+  padding: 5px;
+  font-size: 20px;
+}
+.button.comm:hover {
+  background: #FF5700;
+  color: white;
+}

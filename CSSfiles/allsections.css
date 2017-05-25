@@ -19,6 +19,7 @@ section > p {
 .ptext {
   position: relative;
   width: auto !important;
+  font-size: 35px;
   margin: 0 !important;
   font-family: 'Open Sans', sans-serif !important;
   color: white;
@@ -45,10 +46,12 @@ section > p {
 }
 .button {
   position: relative;
+  background: white;
   margin-top: 60px !important;
   display: inline-block !important;
   height: 33px;
   line-height: 33px;
+  font-size: 35px;
   width: 160px;
   text-align: center;
   margin: 0 auto;
