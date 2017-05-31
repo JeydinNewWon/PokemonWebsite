@@ -3,6 +3,7 @@ body {
   margin-top: 0;
   margin-left: 0 !important;
   margin-right: 0 !important;
+  margin-bottom: 0;
 }
 section {
   overflow: hidden;
@@ -69,4 +70,19 @@ section > p {
   box-shadow: 0px 5.5px 4.2px rgba(0,0,0,0.38);
   -webkit-box-shadow: 0px 5.5px 4.2px rgba(0,0,0,0.38);
   -moz-box-shadow: 0px 5.5px 4.2px rgba(0,0,0,0.38);
+}
+.col-3 {
+  max-width: 300px;
+  margin: 0 10px;
+  text-align: center;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-lead {
+  margin-top: 260px;
+  margin-left: 30px;
 }

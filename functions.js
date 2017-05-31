@@ -14,8 +14,25 @@ var side = function() {
   });
 };
 
+var review = function() {
+  $('.face').on('click', function() {
+    var faceTop = $(this).position().top,
+        vertMath = -1 * (faceTop - 230);
+
+    $(this).parent().css('top', + vertMath + 'px');
+
+    $(this).addClass('has-bubble-open');
+    $(this).siblings().removeClass('has-bubble-open');
+  });
+
+  $('.face:nth-child(3)').addClass('has-bubble-open');
+};
+
+
 var all = function() {
   side();
+  review();
+  reviewStart();
 };
 
 $(document).ready(all);

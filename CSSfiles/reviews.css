@@ -1,0 +1,71 @@
+.review {
+  padding: 50px;
+  background: url(../images/reviewbg.jpg) !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.reviewli li {
+  list-style-type: none;
+}
+.faces {
+  margin: -30px 0;
+  height: calc(100% + 100px);
+  padding: 0;
+  position: relative;
+}
+.face {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+  box-shadow: 0px  4px 8px (0,0,0,0.4);
+}
+.bubble {
+  opacity: 0;
+  z-index: 10;
+  position: absolute;
+  left: 70%;
+  margin-left: 50px;
+  bottom: 40%;
+  width: 400px;
+  background: rgba(0,0,0,0.75);
+  text-align: left;
+  color: white;
+  padding: 20px;
+  border-radius: 40px 40px 40px 5px;
+  border: 3px solid white;
+  pointer-events: none;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0);
+  transform-origin: bottom left;
+
+}
+.face.has-bubble-open .bubble {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.face:nth-child(1) {
+  background: url(../images/kotaku.png)
+}
+
+.face:nth-child(2) {
+  background: url(../images/polygon.png)
+}
+
+.face:nth-child(3) {
+  background: url(../images/ign.png)
+}
+
+.face:nth-child(4) {
+  background: url(../images/metacritic.png)
+}
+
+.face:nth-child(5) {
+  background: url(../images/theguardian.jpg);
+  background-position: 80px 78px;
+}
