@@ -1,3 +1,5 @@
+// Mobile Sidebar
+
 var side = function() {
   $('.side').hide();
   $('.hamburger').show();
@@ -13,6 +15,8 @@ var side = function() {
     $('.side').fadeOut(150);
   });
 };
+
+// Review section.
 
 var review = function() {
   $('.face').on('click', function() {
