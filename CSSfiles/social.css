@@ -1,0 +1,12 @@
+.social {
+  padding: 20px;
+  background: url(../images/socialbg.jpg);
+  background-size: cover;
+  height: calc(100% + 100px) !important;
+}
+.col-4.instagram {
+  margin-top: 10px;
+}
+.socialtext {
+  margin-top: 50px !important;
+}

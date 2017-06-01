@@ -77,6 +77,12 @@ section > p {
   text-align: center;
   align-items: center;
 }
+.col-4 {
+  width: 500px;
+  align-items: center;
+  margin: 0 10px;
+  text-align: center;
+}
 .flex {
   display: flex;
   flex-direction: row;
