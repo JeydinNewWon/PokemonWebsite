@@ -32,11 +32,22 @@ var review = function() {
   $('.face:nth-child(3)').addClass('has-bubble-open');
 };
 
+// Post icons hover-jump
+var postIconJump = function() {
+  $('.content-box').on("mouseenter",
+  function() {
+    $(this).effect("bounce", { times: 2}, 800);
+  });
+
+  $('.content').on("mouseleave", function() {
+    $(this).effect("bounce", { times: 0}, 0);
+  })
+};
+
 
 var all = function() {
   side();
   review();
-  reviewStart();
 };
 
 $(document).ready(all);

@@ -1,0 +1,20 @@
+/*CSS Files*/
+@import url(CSSfiles/header.css);
+@import url(CSSfiles/sidebar.css);
+@import url(CSSfiles/tabmenu.css);
+@import url(CSSfiles/footer.css);
+@import url(CSSfiles/allsections.css);
+@import url(CSSfiles/articles.css);
+
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  padding-top: 81px;
+}
