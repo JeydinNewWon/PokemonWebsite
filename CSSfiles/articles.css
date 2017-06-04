@@ -3,6 +3,7 @@ body {
 }
 .mainarticle {
   padding: 50px;
+  margin-top: -30px;
 }
 .flex {
   display: flex;
@@ -83,4 +84,16 @@ body {
 }
 #gen7post .post-banner {
   background: orange;
+}
+.article-bg-wrapper {
+  background: #f9f7f7;
+  border-radius: 8px;
+}
+.animation-container {
+  padding: 20px;
+  text-align: center;
+  background: #f7d807;
+  border-radius: 8px;
+  margin-top: 19px;
+  color: white;
 }

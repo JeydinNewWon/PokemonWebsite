@@ -1,0 +1,57 @@
+.tagline {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.author {
+  text-decoration: none;
+  font-family: Verdana, Geneva, sans-serif !important;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding: 3px 0 0 45px;
+  background: url(../sprites/FlairBG.png) 0 -36px;
+  display: inline-block;
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  height: 36px;
+  width: 280px;
+}
+.author:hover {
+  text-decoration: underline;
+}
+.flair, .flair:before, .flair:after {
+  position: absolute;
+}
+.flair {
+  font-family: Verdana, Geneva, sans-serif !important;
+  font-size: 10px;
+  top: 100px;
+  left: 134px;
+}
+.flair:before, .flair:after {
+  display: inline-block;
+  content: " ";
+}
+.flair:before {
+  height: 35px;
+  width: 35px;
+  left: -40px;
+  background: url(../sprites/flairs.png);
+  bottom: 0px;
+  right: 100px;
+  margin-right: 0px;
+  padding: 0px
+}
+.flair:after {
+  height: 30px;
+  width: 40px;
+  bottom: 2px;
+  left: 186px;
+}
+.author.admin:after {
+  content: ' [A]'
+}
+.author[href="#Jayden"]~.flair:before,.author[href="#Jayden"]~.flair{background-position:-40px 0;color:#fff}.author[href="#Jayden"]{background-position:0 -216px;color:#fff}.author[href="#Jayden"]~.flair:after{background:url(../sprites/flairafter.png) -280px -64px}.author[href="#Alex"]~.flair:after{background:url(../sprites/firestone.png);height:24px;width:24px;left:200px}.author[href="#Alex"]~.flair:before,.author[href="#Alex"]~.flair{color:#fff}.author[href="#Alex"]~.flair:before{left:-44px}.author[href="#Alex"]{color:#fff;background-position:0 -72px}
