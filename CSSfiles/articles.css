@@ -18,6 +18,15 @@ body {
   color: black;
   padding: 40px;
 }
+.col-2 {
+  max-width: 300px;
+  margin: 0 30px;
+  text-align: center;
+  align-items: center;
+  color: black;
+  padding: 10px;
+  overflow: visible;
+}
 .post-banner {
   text-align: left !important;
   font-family: 'Roboto' !important;
@@ -55,11 +64,12 @@ body {
   justify-content: center;
   padding-top: 0px;
   margin-bottom: 10px;
+  overflow: visible;
 }
 #gen1post, #gen2post, #gen3post, #gen4post, #gen5post, #gen6post, #gen7post {
   margin: 0 !important;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
   text-decoration: none;
   font-family: 'Roboto', sans-serif !important;
 }
@@ -96,4 +106,8 @@ body {
   border-radius: 8px;
   margin-top: 19px;
   color: white;
+}
+#row-wrapper {
+  background: #f9f7f7;
+  border-radius: 8px;
 }
