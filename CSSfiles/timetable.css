@@ -1,0 +1,159 @@
+#timetable {
+  margin-top: 60px !important;
+}
+
+#timetable thead {
+  color: white;
+  font-size: 1.1em;
+}
+#timetable tr:nth-of-type(1) {
+  border-top: none !important;
+}
+
+#timetable,
+#timetable > thead > tr > th,
+#timetable > tbody > tr > td {
+    border: 1px solid #c7c7c7;
+    border-collapse: collapse;
+    border-top: none;
+    border-left: none
+}
+#timetable, #timetable tr:nth-of-type(4) {
+    border-bottom-color: transparent;
+    border-radius: 3px;
+}
+#timetable > tbody > tr:nth-last-of-type(1) > td {
+    border-bottom: 0!important
+}
+#timetable > tbody > tr:nth-of-type(1) {
+    border-bottom: 1px solid #c7c7c7!important
+}
+#timetable > tbody > tr > td:nth-of-type(4),
+#timetable > thead > tr > th:nth-of-type(4) {
+    border-right: none
+}
+#timetable > thead > tr > th:nth-of-type(1) {
+    border-top-left-radius: 5px
+}
+#timetable > thead > tr > th:nth-of-type(4) {
+    border-top-right-radius: 5px
+}
+#timetable > tbody > tr:nth-last-of-type(1) > td:nth-of-type(1) {
+    border-bottom-left-radius: 5px
+}
+#timetable > tbody > tr:nth-last-of-type(1) > td:nth-of-type(4) {
+    border-bottom-right-radius: 5px
+}
+#timetable {
+    border-right: none
+}
+#timetable {
+    position: relative;
+    left: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    width: 100% !important;
+    height: 50% !important;
+}
+#timetable thead {
+    text-align: center
+}
+#timetable tbody > tr:nth-of-type(1) > td {
+    border-top: none!important
+}
+#timetable tbody > tr > td:nth-of-type(4) {
+    padding: 5px
+}
+#timetable thead > tr {
+    background-color: #4facea
+}
+#timetable thead > tr > th:nth-of-type(1) {
+    background: url(../sprites/calendar.png) #4facea center no-repeat;
+    width: 10%;
+    padding-top: 4px;
+    padding-bottom: 4px
+}
+#timetable thead > tr > th:nth-of-type(2) {
+    background: url(../sprites/clock.png) #4facea center no-repeat;
+    width: 20%;
+}
+#timetable thead > tr > th:nth-of-type(1),
+#timetable thead > tr > th:nth-of-type(2) {
+    text-indent: -9999px
+}
+#timetable thead > tr > th:nth-of-type(4) {
+    padding: 5px!important
+}
+#timetable tbody > tr > td {
+    text-align: center!important
+}
+#timetable > tbody > tr > td {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#timetable td:nth-of-type(4) {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+#timetable thead > tr > th:nth-of-type(3),
+#timetable thead > tr > th:nth-of-type(4) {
+    background-color: #4facea
+}
+#timetable tbody {
+    text-align: left;
+    padding: 3px
+}
+#timetable tbody > tr > td {
+    background-color: rgba(235, 235, 235, 0.3);
+}
+#timetable thead > tr > th:nth-of-type(3) {
+    width: 20%;
+}
+#timetable tbody > tr > td:nth-of-type(1) {
+    text-indent: 0;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px
+}
+#timetable a[href="#Sun"] {
+    border: 1px solid #ea8f24;
+    background-color: #ea8f24;
+    color: #fff!important;
+    border-radius: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    position: relative;
+    top: -6px;
+    text-decoration: none;
+    font-size: 11px
+}
+#timetable a[href="#Moon"] {
+    border: 1px solid #57aad4;
+    background-color: #57aad4;
+    margin-top: 1px;
+    color: #fff!important;
+    border-radius: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    position: relative;
+    top: -6px;
+    text-decoration: none;
+    font-size: 11px
+}
+#timetable {
+    border-radius: 3px;
+}
+#timetable > tbody > tr:nth-of-type(1) {
+    border-bottom: 1px solid #c7c7c7 !important;
+}
+.sep {
+  background: none !important;
+  padding: 10px !important;
+}
+#timetable tr {
+  box-sizing: content-box;
+}
+#timetable tr:not(#tablehead):hover {
+  background: rgba(224, 234, 72, 0.5);
+  border-left: 3px solid #f7d807;
+}
