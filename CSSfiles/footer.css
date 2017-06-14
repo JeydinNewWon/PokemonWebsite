@@ -1,5 +1,7 @@
 footer {
   text-align:center;
+  position: relative;
+  bottom: 0;
   color: white;
   font-size: 14px;
   line-height: 110px;
