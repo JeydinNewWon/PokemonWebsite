@@ -1,6 +1,25 @@
-.articletext p {
-  padding: 40px;
+.articletext {
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
   background: #3bd6d6;
   border-radius: 8px;
   color: white;
+  margin-top: 20px;
+}
+.articlerow.text {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.articletext h1, .articletext h3 {
+  text-decoration: underline;
+}
+.articlerow.text img {
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 0 20px;
+  display: inline-block;
+  max-height: 400px;
 }
