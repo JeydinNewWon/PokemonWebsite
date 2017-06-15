@@ -1,5 +1,5 @@
 .review {
-  padding: 50px;
+  padding: 80px;
   background: url(../images/reviewbg.jpg) !important;
   background-size: cover !important;
   background-position: center;
@@ -26,6 +26,10 @@
   -webkit-box-shadow: 0px  4px 8px rgba(0,0,0,0.4);
   -moz-box-shadow: 0px  4px 8px rgba(0,0,0,0.4);
 }
+
+.faces li:nth-child(1) .bubble {
+  width: 490px !important;
+}
 .bubble {
   opacity: 0;
   z-index: 10;
@@ -33,7 +37,7 @@
   left: 70%;
   margin-left: 50px;
   bottom: 40%;
-  width: 400px;
+  width: 410px;
   background: rgba(0,0,0,0.75);
   text-align: left;
   color: white;
